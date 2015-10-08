@@ -1,0 +1,100 @@
+/* GENERAL */
+
+* {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#wrap {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 960px;
+}
+
+
+/* USER LIST */
+
+#users-wrap {
+	display: inline-block;
+	overflow-y: auto;
+	width: 15%;
+	height: 96%;
+	border-right: 1px solid black;
+	margin: 0px;
+	padding: 10px 10px 0 30px;
+	vertical-align: top;
+}
+#users-wrap ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#users-wrap ul li {
+	padding-bottom: 2px;
+}
+
+
+/* CHAT MESSAGES */
+
+#msg-wrap {
+	display: inline-block;
+	width: 85%;
+	height: 96%;
+	overflow-y: auto;
+	padding: 10px;
+	vertical-align: top;
+}
+#msg-wrap div:nth-child(even) {
+	background: #CDD1D6;
+}
+.msg-template{
+	padding: 10px;
+}
+.username {
+	width: 14%;
+	margin:5px 0px 0px 0px;
+	font-weight:bold;
+}
+.time {
+	color: #807F7F;
+	font-size:12px;
+	margin:5px 0px 0px 15px;
+}
+.msg {
+	width: 84%;
+	font-size: 18px;
+	word-wrap: break-word;
+	margin:5px 0px 5px 15px;
+}
+
+
+/* MESSAGE SENDING FORM */
+
+#msg-form {
+	background: #CDD1D6;
+	padding: 3px;
+	width: 100%;
+	height: 4%;
+}
+#msg-form *:focus {
+	outline: 0;
+}
+#msg-form input[name="new-msg"] {
+	display: inline-block;
+	border: 0;
+	padding: 10px;
+	width: 90%;
+}
+#msg-form input[name="submit"] {
+	display: inline-block;
+	width: 10%;
+	background: #CDD1D6;
+	border: none;
+}

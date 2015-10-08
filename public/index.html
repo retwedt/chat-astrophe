@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chat App w/ Socket.io</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="wrap">
+
+		<!-- Sidebar of all users -->
+		<div id="users-wrap">
+			<h1>USERS</h1>
+			<ul class="user-list">
+				<li>Bruce</li>
+				<li>Hal</li>
+				<li>Logan</li>
+				<li>Barbara</li>
+				<li>Remy</li>
+				<li>Raven</li>
+				<li>Reed</li>
+				<li>Kal</li>
+				<li>Charles</li>
+			</ul>
+		</div><!--
+		
+
+
+		
+		--><div id="msg-wrap">
+
+			<!-- Message template -->
+			<div class="msg-template">
+				<span class="username">Bruce</span>
+				<span class="time">10:10am</span>
+				<p class="msg">Get off the computer and go outside!!!</p>
+			</div>
+
+		</div>
+
+		<!-- Form for submitting messages -->
+		<form id="msg-form">
+			<input type="text" name="new-msg" autocomplete="off" /><!--
+			--><input class="btn" name="submit" value="Send" type="submit" />
+		</form>
+		
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./js/moment.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
