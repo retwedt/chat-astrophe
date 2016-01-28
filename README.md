@@ -12,8 +12,8 @@ This is a project from Course 4 Server-side Programming at CodeAbode.  This mult
 ```
 ├── public/
   ├── js/
-	├── css/
-	└── index.html
+  ├── css/
+  └── index.html
 ├── app.js
 ├── package.json
 ├── assignment.txt
@@ -26,6 +26,5 @@ This is a project from Course 4 Server-side Programming at CodeAbode.  This mult
 2.	Download/clone this repository.
 3.	Open terminal and navigate to the repository folder.
 4.	Let the node package manager install required dependencies: `npm install`. (On macs: `sudo npm install`).
-5.	Start the build by running: `node app.js`. You can open your browser to "http://localhost:8080/" to see the site running.
-    └── Open a second tab and navigate to "http://localhost:8080/" to add another user to the chat room
+5.	Start the build by running: `node app.js`. You can open your browser to "http://localhost:8080/" to see the site running.  Open a second tab and navigate to "http://localhost:8080/" to add another user to the chat room
 
