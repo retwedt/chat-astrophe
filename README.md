@@ -3,7 +3,7 @@
 
 This multi-user chat app is a project from Course 4 Server-side Programming at CodeAbode.  Users can enter their name, view a list of all users in the chat room, and communicate in real time with each other!   This app takes advantage of several technologies:
 
--	[Node.js](https://nodejs.org/en/) - a power tool for server-side scripting with JavaScript
+-	[Node.js](https://nodejs.org/en/) - a powerful tool for server-side scripting with JavaScript
 -	[Express](http://expressjs.com/) - a lightweight framework for Node.js
 -	[Socket.io](http://socket.io/) - a package for real-time communication using websockets and Node.js
 
