@@ -1,4 +1,4 @@
-# Chat-astrophe!
+# Chat-astrophe
 
 ## A Multi-User chat app
 
